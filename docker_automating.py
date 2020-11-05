@@ -40,7 +40,7 @@ def all_docker(ch):
 		ch=input("Are you sure? press yes to continue")
 		if ch=="yes"
 			os.system("docker rm  `docker  ps -a -q`")
-def all_docker_ssh(ch):
+def all_docker_ssh(ch):  ####  in ssh  i am still working it is not completed
 	if ch==1:
 		os.system("tty") # terminal you are using
 	if ch==2:	
